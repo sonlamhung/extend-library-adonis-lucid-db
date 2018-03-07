@@ -1,0 +1,108 @@
+{
+  "_from": "adonis-lucid-db@^1.0.51",
+  "_id": "adonis-lucid-db@1.0.53",
+  "_inBundle": false,
+  "_integrity": "sha512-iY7X8J1kJ2kT2EJPjfmH+JuB+iNW/qA1cmKWnCO5D9tdyfdAD6caFXw9crDb1g7LGrgnxIZADkIzlTAMzkdKxQ==",
+  "_location": "/adonis-lucid-db",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "adonis-lucid-db@^1.0.51",
+    "name": "adonis-lucid-db",
+    "escapedName": "adonis-lucid-db",
+    "rawSpec": "^1.0.51",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.51"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/adonis-lucid-db/-/adonis-lucid-db-1.0.53.tgz",
+  "_shasum": "b0406fc902d38fa34a76c9dd7a3b936cb4ec3912",
+  "_spec": "adonis-lucid-db@^1.0.51",
+  "_where": "D:\\PROJECT\\a-t",
+  "author": {
+    "name": "adonisjs + Lucnn"
+  },
+  "bugs": {
+    "url": "https://luci.vn"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "flags": "--harmony_proxies"
+  },
+  "dependencies": {
+    "adonis-binding-resolver": "^1.0.1",
+    "cat-log": "^1.0.2",
+    "chance": "^1.0.6",
+    "co": "^4.6.0",
+    "co-functional": "^0.2.1",
+    "es6-class-mixin": "^1.0.5",
+    "geopoint": "^1.0.1",
+    "harmony-reflect": "^1.5.1",
+    "inflect": "^0.4.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.22",
+    "mquery": "^2.2.3",
+    "node-exceptions": "^2.0.1",
+    "pretty-hrtime": "^1.0.3",
+    "require-all": "^2.2.0",
+    "uuid": "^3.0.1"
+  },
+  "deprecated": false,
+  "description": "AdonisJs Mongodb ORM",
+  "devDependencies": {
+    "adonis-ace": "^3.0.6",
+    "adonis-fold": "^3.0.3",
+    "bluebird": "^3.4.7",
+    "chai": "^4.0.2",
+    "co-fs-extra": "^1.2.1",
+    "co-mocha": "^1.2.0",
+    "coveralls": "^2.11.16",
+    "cz-conventional-changelog": "^2.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "semantic-release": "^6.3.2",
+    "semver": "^5.3.0",
+    "shelljs": "^0.7.6",
+    "standard": "^10.0.2",
+    "test-console": "^1.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://luci.vn",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "adonis-lucid-db",
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.luci.vn/lucnn/adonis-lucid-db.git"
+  },
+  "scripts": {
+    "coverage": "npm run lint && node ./bin/coverage",
+    "fix": "standard --fix",
+    "lint": "standard",
+    "test": "npm run lint && FORCE_COLOR=true node ./bin/test",
+    "test:all": "DB=mongodb npm run test"
+  },
+  "standard": {
+    "global": [
+      "use",
+      "describe",
+      "it",
+      "after",
+      "before",
+      "context",
+      "make",
+      "beforeEach"
+    ]
+  },
+  "version": "1.0.53"
+}
