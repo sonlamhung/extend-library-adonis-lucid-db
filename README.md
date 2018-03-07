@@ -1,4 +1,4 @@
-# AdonisJS Lucid MongoDB
+# AdonisJS Lucid DB
 
 > **NB - WORK IN PROGRESS**
 
